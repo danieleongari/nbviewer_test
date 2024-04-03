@@ -2,9 +2,20 @@
 
 ## Instruction
 1. Commit an push the notebook
-2. Wait a bit (10 minutes?) 
+2. Go to `https://nbviewer.jupyter.org/github/{user}/{repo}/blob/{commit}/{path/to/notebook}` for a specific commit
 3. Go to `https://nbviewer.jupyter.org/github/{user}/{repo}/tree/{branch}/` for the latest commit
-4. Go to `https://nbviewer.jupyter.org/github/{user}/{repo}/blob/{commit}/{path/to/notebook}` for a specific commit
+
+## Issues and unexpected behavior
+
+It is not clear how often the cache is updated: many issues [report this problem](https://github.com/jupyter/nbviewer/issues). <br>
+The [FAQ tells](https://nbviewer.org/faq#why-is-nbviewer-showing-an-outdated-version-of-my-notebook) that I should append `?flush_cache=true` to the URL but this was not effective to me.  <br>
+The best way I found is to first go the commit verson (see Intructions, Step 2) and this creates the notebook visualization faster.
+
+Another issue is with VSCode and Plotly: [to render the plots correctly](https://nbviewer.org/github/danieleongari/nbviewer_test/blob/40b322184fb614dc67cbf912096a41ba16c59a92/12_plotly_slider2_all.ipynb) you need to use
+```python
+import plotly.io as pio
+pio.renderers.default = 'notebook'
+```
 
 ## nbviewer links
 - [All notebooks](https://nbviewer.org/github/danieleongari/nbviewer_test/tree/main/)
