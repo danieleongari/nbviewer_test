@@ -3,7 +3,7 @@
 ## Instruction
 1. Commit an push the notebook
 2. Go to `https://nbviewer.jupyter.org/github/{user}/{repo}/blob/{commit}/{path/to/notebook}` for a specific commit
-3. Go to `https://nbviewer.jupyter.org/github/{user}/{repo}/tree/{branch}/` for the latest commit
+3. Go to `https://nbviewer.jupyter.org/github/{user}/{repo}/tree/{branch}/` for the latest commit (also `/blob/{branch}/` instead of `/tree/{branch}/` is fine)
 
 ## Issues and unexpected behavior
 
