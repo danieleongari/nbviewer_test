@@ -15,7 +15,7 @@ Another issue is with VSCode and Plotly, to render the plots correctly you need 
 However, in plotly>=6.0 the `notebook` and `vscode` renders are different and you need to use `"notebook_connected"` or `"colab"`.
 There was a problem mentioned in https://github.com/plotly/plotly.py/issues/4953 and (partially) solved by https://github.com/plotly/plotly.py/pull/5096.
 
-Long story short, to make plot visible in all VSCode and nbviewer, plotly<6.0.0 or plotly>6.0.1 you should use:
+Long story short, to make plotly graphs visible in all VSCode and nbviewer, plotly<6.0.0 or plotly>6.0.1 you should use:
 
 ```python
 import plotly.io as pio
