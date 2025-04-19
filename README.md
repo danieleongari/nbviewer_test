@@ -14,11 +14,11 @@ The best way I found is to first go the commit verson (see Intructions, Step 2) 
 Another issue is with VSCode and Plotly: [to render the plots correctly](https://nbviewer.org/github/danieleongari/nbviewer_test/blob/40b322184fb614dc67cbf912096a41ba16c59a92/12_plotly_slider2_all.ipynb) you need to use
 ```python
 import plotly.io as pio
-pio.renderers.default = 'notebook'
+pio.renderers.default = 'notebook+vscode'
 ```
 
 ## nbviewer links
 - [All notebooks](https://nbviewer.org/github/danieleongari/nbviewer_test/tree/main/)
 - [All notebooks (commit `867571a2`)](https://nbviewer.org/github/danieleongari/nbviewer_test/tree/867571a2140143aed461a1b8533f088eeec0233e/)
-- [Notebook, last commit](https://nbviewer.org/github/danieleongari/nbviewer_test/tree/main/01_plotly_basic.ipynb)
-- [Notebook, commit `867571a2`](https://nbviewer.org/github/danieleongari/nbviewer_test/blob/867571a2140143aed461a1b8533f088eeec0233e/01_plotly_basic.ipynb)
+- [Notebook, last commit](https://nbviewer.org/github/danieleongari/nbviewer_test/tree/main/notebook_1.ipynb)
+- [Notebook, commit `867571a2`](https://nbviewer.org/github/danieleongari/nbviewer_test/blob/867571a2140143aed461a1b8533f088eeec0233e/notebook_1.ipynb)
